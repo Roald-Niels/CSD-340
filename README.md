@@ -1,2 +1,4 @@
-# CSD-340
-This will be a repository for my CSD 340 class.
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Instructor - Nathan Braun
+* Student - Roald Medendorp

@@ -1,0 +1,66 @@
+/* Medendorp_Mod2_2.css */
+
+/* Set the base font size */
+html, body {
+    font-size: 16px;
+  }
+  
+  /* Paragraph text styling */
+  p {
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  
+  /* Heading 1 styling */
+  h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* Heading 2 styling */
+  h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+  }
+  
+  /* Container div */
+  #container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Intro class styling */
+  .intro {
+    text-indent: 2em;
+  }
+  
+  /* Sentence class styling */
+  .sentence {
+    font-style: italic;
+  }
+  
+  /* Address styling */
+  address {
+    text-align: center;
+  }
+  
+  /* Link styling */
+  a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+  }
+  
+  /* Hover and visited pseudo classes */
+  a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+  }
+  
+  a:visited {
+    color: #6A6A6A; /* Example: Grey color for visited links */
+  }

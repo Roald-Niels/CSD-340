@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+#container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  position: relative; /* Make the container a positioning context */
+}
+
+/* Heading 1 styling */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: rgba(0, 123, 255, 1); /* Optional: Customize the color */
+}
+
+/* Image gallery */
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 10%;
+}
+
+/* Styling for each image item */
+.image-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Heading 3 styling */
+.image-item h3 {
+  text-align: center;
+  color: rgba(40, 167, 69, 1); /* Optional: Customize the color */
+  margin-bottom: 10px;
+}
+
+/* Styling for figure */
+figure {
+  text-align: center;
+}
+
+/* Styling for figcaption */
+figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+  color: rgba(108, 117, 125, 1); /* Optional: Customize the color */
+}
+
+/* Styling for links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Specific styling for the landing page link */
+#container p {
+  position: absolute;
+  right: 0;
+  bottom: -80px; /* Adjust as needed for positioning lower */
+  margin: 20px; /* Margin for spacing */
+}

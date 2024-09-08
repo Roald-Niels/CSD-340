@@ -2,3 +2,4 @@
 ## Contributors
 * Instructor - Nathan Braun
 * Student - Roald Medendorp
+* Bellevue University

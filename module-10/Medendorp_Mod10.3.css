@@ -4,7 +4,7 @@ html {
 }
 
 /* Set the images to half their original size */
-#fight, #space {
+#Fight, #Space {
   width: 50%;
   height: auto; /* Maintain aspect ratio */
 }

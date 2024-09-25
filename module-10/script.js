@@ -3,6 +3,7 @@ window.onload = function() {
   const fightImage = document.getElementById('fight');
   const spaceImage = document.getElementById('space');
 
+
   // Helper function to create the popup
   function showPopup(imageId, src, width, height) {
     // Create overlay

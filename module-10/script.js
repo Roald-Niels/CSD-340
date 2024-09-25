@@ -63,3 +63,4 @@ window.onload = function() {
   fightImage.onclick = handleClick;
   spaceImage.onclick = handleClick;
 };
+

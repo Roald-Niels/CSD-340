@@ -1,7 +1,7 @@
 window.onload = function() {
   // Get the images
-  const fightImage = document.getElementById('Fight');
-  const spaceImage = document.getElementById('Space');
+  const FightImage = document.getElementById('Fight');
+  const SpaceImage = document.getElementById('Space');
 
   // Helper function to create the popup
   function showPopup(imageId, src, width, height) {

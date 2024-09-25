@@ -1,7 +1,7 @@
 window.onload = function() {
   // Get the images
-  const fightImage = document.getElementById('Fight');
-  const spaceImage = document.getElementById('Space');
+  const fightImage = document.getElementById('fight');
+  const spaceImage = document.getElementById('space');
 
   // Helper function to create the popup
   function showPopup(imageId, src, width, height) {
@@ -42,20 +42,20 @@ window.onload = function() {
 
   // Set up hover effects for the fight image
   fightImage.onmouseover = function() {
-    fightImage.src = 'Fight_2.jpg';
+    fightImage.src = 'fight_2.jpg';
   };
   
   fightImage.onmouseout = function() {
-    fightImage.src = 'Fight_1.jpg';
+    fightImage.src = 'fight_1.jpg';
   };
   
   // Set up hover effects for the space image
   spaceImage.onmouseover = function() {
-    spaceImage.src = 'Space_2.jpg';
+    spaceImage.src = 'space_2.jpg';
   };
   
   spaceImage.onmouseout = function() {
-    spaceImage.src = 'Space_1.jpg';
+    spaceImage.src = 'space_1.jpg';
   };
   
   // Add click event listeners to the images

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSD 340 Web Development with HTML and CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Assignment 11.2: JavaScript - Part 3</h1>
+  <!-- Description of the list -->
+<p id="listDescription">
+  This to do list allows you to add, delete, and display text entries. Use the text box
+  to enter a value and click "Add" to include it in the list. Click "Delete Last Entry"
+  to remove the most recent entry from the list. Click "Display" to show the entire list
+  of entries below.
+</p>
+  <input type="text" id="inputBox" placeholder="Enter text">
+  <button onclick="addElement()">Add</button>
+  <button onclick="deleteLastElement()">Delete Last Entry</button>
+  <button onclick="displayElements()">Display</button>
+
+  <div id="displayArea"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

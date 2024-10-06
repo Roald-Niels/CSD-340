@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+.left, .right {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right {
+    float: right;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol {
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: decimal inside;
+}
+
+ul {
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
